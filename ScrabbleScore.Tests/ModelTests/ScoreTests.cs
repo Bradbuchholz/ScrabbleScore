@@ -9,10 +9,10 @@ namespace ScrabbleScore.Tests
   public class Score
   {
     [TestMethod]
-    public void ScrabbleScore_CreatesAWordObject_ScrabbleScore()
+    public void Score_CreatesAWordObject_Score()
     {
-      Score newScrabbleScore = new Score();
-      Assert.AreEqual(typeof(Score), newScrabbleScore.GetType());
+      Score newScore = new Score();
+      Assert.AreEqual(typeof(Score), newScore.GetType());
     }
   }
 }
