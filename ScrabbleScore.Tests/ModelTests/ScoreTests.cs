@@ -8,10 +8,6 @@ namespace ScrabbleScore.Tests
   [TestClass]
   public class Score
   {
-    // public void WordInput_ReturnAWord_String()
-    // {
-    // string input = "scrabble";
-    // }
     [TestMethod]
     public void ScrabbleScore_CreatesAWordObject_ScrabbleScore()
     {
